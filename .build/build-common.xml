@@ -181,7 +181,7 @@
       <filter token="APP_DESC" value="${papp.desc}"/>
       <filter token="APP_VERSION" value="${app.version}"/>
       <filter token="APP_RELEASE" value="${app.release}"/>
-      <filter token="APP_COPYRIGHT" value="${papp.url}"/>
+      <filter token="APP_COPYRIGHT" value="${app.copyright}"/>
       <filter token="APP_MAJOR" value="${app.major}"/>
       <filter token="APP_PORTAPPS_MAJOR" value="${portapps.major}"/>
       <filter token="APP_PORTAPPS_MINOR" value="${portapps.minor}"/>
@@ -192,7 +192,7 @@
     <echo message="APP_DESC           : ${papp.desc}"/>
     <echo message="APP_VERSION        : ${app.version}"/>
     <echo message="APP_RELEASE        : ${app.release}"/>
-    <echo message="APP_COPYRIGHT      : ${papp.url}"/>
+    <echo message="APP_COPYRIGHT      : ${app.copyright}"/>
     <echo message="APP_MAJOR          : ${app.major}"/>
     <echo message="APP_PORTAPPS_MAJOR : ${portapps.major}"/>
     <echo message="APP_PORTAPPS_MINOR : ${portapps.minor}"/>
@@ -349,7 +349,7 @@
         <filter token="APP_VERSION" value="${app.major}"/>
         <filter token="APP_RELEASE" value="${app.release}"/>
         <filter token="APP_DATE" value="${build.date}"/>
-        <filter token="APP_URL" value="${papp.url}"/>
+        <filter token="APP_COPYRIGHT" value="${app.copyright}"/>
         <filter token="APP_PUBLISHER" value="${publisher}"/>
         <filter token="APP_PORTAPPS_VERSION" value="${papp.coreversion}"/>
       </filterset>
