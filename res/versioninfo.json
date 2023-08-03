@@ -3,7 +3,7 @@
   {
     "FileVersion": {
       "Major": @APP_MAJOR@,
-	    "Minor": @APP_PORTAPPS_MAJOR@,
+      "Minor": @APP_PORTAPPS_MAJOR@,
       "Patch": @APP_PORTAPPS_MINOR@,
       "Build": @APP_PORTAPPS_PATCH@
     },
